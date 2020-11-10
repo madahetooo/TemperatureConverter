@@ -27,7 +27,7 @@ public class splashScreen extends AppCompatActivity {
                 try {
                     int x=300/0;
                 }catch (ArithmeticException e){
-                    Toast.makeText(splashScreen.this, "Craaaaaash ya7omar", Toast.LENGTH_SHORT).show();
+//                    Toast.makeText(splashScreen.this, "Craaaaaash ya7omar", Toast.LENGTH_SHORT).show();
                     e.printStackTrace();
                 }
                 Intent intent=new Intent(splashScreen.this,MainActivity.class);
